@@ -1,3 +1,4 @@
+open System
 
 let rec RemoveAllMultiples (max:int) (index:int) (listN:List<int>) =
     let num = listN.Item(index)

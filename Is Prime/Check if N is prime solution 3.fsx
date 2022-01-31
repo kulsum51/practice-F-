@@ -1,3 +1,4 @@
+open System
 
 let rec isPrimeNoSqrt n i limit =
     i > limit || (n % i <> 0 && isPrimeNoSqrt n (i + 1) limit)

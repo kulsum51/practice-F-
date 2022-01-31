@@ -1,3 +1,4 @@
+open System
 
 let rec isPrimeNo n i =
     i > n/2 || (n % i <> 0 && isPrimeNo n (i + 1))

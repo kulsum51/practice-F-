@@ -1,3 +1,4 @@
+open System
 
 let isPrimeNo n =
    let rec check i =
