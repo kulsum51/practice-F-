@@ -1,1 +1,1 @@
-# practice-F-
+# learn F# by practicing small problems
